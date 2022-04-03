@@ -63,12 +63,12 @@ body {
 .container__left__subject {
     font-size: 3rem;
     font-weight: 700;
-
+    line-height:3.5rem;
 }
 
 .container__left__paragraph {
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 
@@ -172,6 +172,7 @@ body {
 .form__button {
     background-color: var(--button--green);
 
+    text-transform: uppercase;
     color:var(--base--white);
 
     border:none;
@@ -188,14 +189,15 @@ body {
 
 .form__agreement {
     text-align:center;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     font-weight: 400;
     color:var(--base--blue);
     margin:0.5rem;
+    margin-top:1rem;
 }
 
 .form__agreement span {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     font-weight: 600;
     color:var(--alert--red);
 
@@ -245,11 +247,11 @@ body {
     
     .container__left__subject {
         font-size: 1.7rem;
+        line-height: 2rem;
     }
     
     .container__left__paragraph {
         font-size: 1rem;
-        font-weight: 400;
     }
 
     .container__right {
@@ -273,8 +275,6 @@ body {
     }
 
     .form__agreement {
-        font-size: 0.7rem;
-
         line-height: 1.2rem;
 
         margin:1rem 2.5rem;
